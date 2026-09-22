@@ -72,20 +72,103 @@ A cada resposta, o intervalo de possibilidades é atualizado, permitindo que o a
 
 ## 📋 Pré-requisitos
 
-Antes de iniciar, é necessário instalar:
+Antes de começar, é necessário ter instalado:
 
-- [Node.js](https://nodejs.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Android Studio](https://developer.android.com/studio), caso seja utilizado o emulador Android
-- Expo Go, caso a aplicação seja executada em um dispositivo Android
-
-Também é necessário ter o projeto **Pink Oracle** baixado no computador.
+* [Node.js](https://nodejs.org/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Android Studio](https://developer.android.com/studio/), para usar o emulador Android
+* Expo Go, caso queira testar pelo celular
 
 ---
 
 ## 1️⃣ Baixar o projeto
 
-Clone este repositório utilizando:
+Clone o repositório:
 
 ```bash
 git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta:
+
+```bash
+cd Pink-Oracle
+```
+
+---
+
+## 2️⃣ Abrir no Visual Studio Code
+
+Abra a pasta do projeto no Visual Studio Code.
+
+Depois, abra o terminal do VS Code.
+
+---
+
+## 3️⃣ Instalar as dependências
+
+No terminal, execute:
+
+```bash
+npm install
+```
+
+Aguarde a instalação terminar.
+
+---
+
+## 4️⃣ Iniciar o projeto
+
+Execute:
+
+```bash
+npx expo start
+```
+
+Depois disso, o Expo mostrará as opções para executar o aplicativo.
+
+---
+
+## 5️⃣ Executar no Android
+
+### Emulador Android
+
+Com o emulador aberto, pressione:
+
+```text
+a
+```
+
+O aplicativo será aberto no emulador.
+
+### Celular
+
+Caso esteja usando um celular, abra o **Expo Go** e escaneie o QR Code que aparecer no terminal ou na página do Expo.
+
+O celular e o computador precisam estar conectados à mesma rede Wi-Fi.
+
+---
+
+## ⚠️ Caso dê algum erro
+
+Se o aplicativo não carregar corretamente, tente iniciar o Expo limpando o cache:
+
+```bash
+npx expo start -c
+```
+
+Depois tente abrir novamente.
+
+---
+
+## 📌 Resumo
+
+```bash
+git clone URL_DO_REPOSITORIO
+cd Pink-Oracle
+npm install
+npx expo start
+```
+
+Para abrir no emulador Android, pressione `a`.
+
